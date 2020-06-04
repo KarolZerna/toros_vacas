@@ -1,18 +1,10 @@
 class TorosVacas
     def inicializar
         @reglamento = false
-        @codigo
     end
     def aceptarReglamento()
         return @reglamento = true
     end
-    #def definirCodigo(cod)
-        #if(cod == 1 || cod ==2 )
-           # return true
-       # else
-          #  return false
-       # end
-    #end
     def is_numeric?(obj) 
         obj.to_s.match(/\A[+-]?\d+?(\.\d+)?\Z/) == nil ? false : true
     end
@@ -24,5 +16,22 @@ class TorosVacas
             ans = false
         end
         return ans
+    end
+    def defCodigo(num)
+        @codigo = num
+    end 
+    def numeroTorosVacas(numIntento)
+        auxCodigo = @codigo.to_s
+        aux = numIntento.to_s
+        coincidencias = 0
+        aciertos = 0
+        for i in (0..3)
+            if (aux[i] == auxCodigo[i])
+                aciertos = aciertos + 1
+            elsif (aux[i].include? auxCodigo)
+                coincidencias = coincidencias + 1
+            end            
+        end
+        return @codigo
     end
 end

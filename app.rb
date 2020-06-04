@@ -9,9 +9,14 @@ post '/aceptar' do
 end
 
 post '/verificar' do
-    if(@jugador1=verificar(params[:Numero].to_i))
+    @jugador1 = TorosVacas.new
+    if(@jugador1.verificar(params[:Numero].to_i))
         erb:adivinar
     else
-        erb:fallo
+        erb:falloCodigo
     end
+end
+
+post '/adivinar' do
+    "vacas = 0 "
 end
