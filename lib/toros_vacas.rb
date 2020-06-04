@@ -1,7 +1,6 @@
 class TorosVacas
     def inicializar
         @reglamento = false
-        @intentos = 0
     end
     def aceptarReglamento()
         return @reglamento = true
@@ -21,11 +20,30 @@ class TorosVacas
     def defCodigo(num)
         @codigo = num
     end 
-    def getCodigo()
-        return @codigo
+    def defIntentos(num)
+        @intentos = num
     end
-
-    def numeroTorosVacas(numIntento)
+    def mostrarIntentos()
+        return @intentos
+    end
+    def aumentarIntentos()
+        @intentos = @intentos + 1
+    end
+    def mostrarToros_Vacas(numIntento)
+        auxCodigo = @codigo.to_s
+        aux = numIntento.to_s
+        coincidencias = 0
+        aciertos = 0
+        for i in (0..3)
+            if (aux[i] == auxCodigo[i])
+                aciertos = aciertos + 1
+            elsif (auxCodigo.include?(aux[i]))
+                coincidencias = coincidencias + 1
+            end            
+        end
+        return "vacas: " + coincidencias.to_s + " toros: " + aciertos.to_s
+    end
+    def numeroTorosVacas(numIntento) 
         auxCodigo = @codigo.to_s
         aux = numIntento.to_s
         ans=[0,0]

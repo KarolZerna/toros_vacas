@@ -1,28 +1,83 @@
 <!DOCTYPE html>
 <head>
-    <title>Vacas y Toros</title>
-    <link rel="stylesheet" href="/public/styles.css" type="text/css">
+    <title>Toros y vacas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style type = text/css> 
+        html{
+            font-family: 'Montserrat', sans-serif;
+        }
+        header{
+            margin:auto;
+            display:flex;
+            text-align:left;
+            background-color:#020301;
+            color:#f3f5f9;
+            padding:20px;
+        }
+        header img{
+            margin-right:50px;
+        }
+        header .autores p{
+            margin:0px;
+        }
+        body{
+            margin:0px;
+        }
+        body .main{
+            background-color:#f3f5f9;
+            color:#020301;
+            padding:30px;
+            margin:0px;
+        }
+        form{
+            text-align: center;
+        }
+        .button{
+            background-color:#020301;
+            color:#f3f5f9;
+            padding:10px;
+            border-radius: 3px;
+            width: 200px;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+        .button:hover{
+            background-color:#90adc6;
+            color:#020301;
+        }
+        .last-title{
+            text-align:center;
+            padding-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Toros y Vacas</h1>
-    <p>Jugador 1 <br>
-    Debes insertar un código secreto de 4 cifras compuesto solamente de números y no se debe repetir el mismo digito</p>
-    <p>Jugador 2<br>
-    Debes adivinar el código secreto</p>
-    El codigo secreto no tiene dos cifras repetidas</p>
-
-    <p>Un toro indica que uno de los dígitos ingresados
-    coincide exactamente con el valor y la posición de uno
-    de los dígitos en el código secreto.</p>
-
-    <p>Una vaca indica que uno de los dígitos ingresados
-    coincide con el valor de uno de los dígitos en el código
-    secreto, pero que se encuentra en una posición incorrecta.</p>
-
-    <h2>Cuentas con 10 intentos  para adivinar el código secreto.</h2>
-
-    <form method='post' action='aceptar'>
-        <input type='submit' value='aceptar'>
-    </form>
+    <header>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/968afb90-ac92-44de-a6d9-bbd220b7fa64/dbjfnhu-7ec368ac-aa3c-4ce2-a180-016c70b5b92e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTY4YWZiOTAtYWM5Mi00NGRlLWE2ZDktYmJkMjIwYjdmYTY0XC9kYmpmbmh1LTdlYzM2OGFjLWFhM2MtNGNlMi1hMTgwLTAxNmM3MGI1YjkyZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DblfxQePmgf7fKni9Sx5GnfZ0OeHTHktF7KhzLyq7xo" alt="" width="110px">
+        <div clas="autores">
+            <h1 class="titulo">Toros y Vacas</h1>
+            <p>Daniel Acero, Mercedes La Fuente, Juslan Vargas, Karol Zerna</p>
+        </div>
+        
+    </header>
+    <div class="main">
+        <h2>Jugador 1 </h2>
+        <p>Debes insertar un código secreto de 4 cifras compuesto solamente de números y no se debe repetir el mismo digito</p>
+        <h2>Jugador 2</h2>
+        <p>Debes adivinar el código secreto</p>
+        <p>El codigo secreto no tiene dos cifras repetidas</p>
+        <p>Un toro indica que uno de los dígitos ingresados
+        coincide exactamente con el valor y la posición de uno
+        de los dígitos en el código secreto.</p>
+        <p>Una vaca indica que uno de los dígitos ingresados
+        coincide con el valor de uno de los dígitos en el código
+        secreto, pero que se encuentra en una posición incorrecta.</p>
+        <div class="last-title">
+            <h2>Cuentas con 10 intentos  para adivinar el código secreto.</h2>
+        </div>
+        <form method='post' action='aceptar'>
+            <input type='submit' value='aceptar' class="button">
+        </form>
+    </div>
 </body>
 </html>

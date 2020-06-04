@@ -13,6 +13,8 @@ end
 post '/verificar' do
     if(@@juego.verificar(params[:Numero].to_i))
         @@juego.defCodigo(params[:Numero].to_i)
+        @@juego.defIntentos('1'.to_i)
+        @numIntentos=@@juego.mostrarIntentos()
         erb:adivinar
     else
         erb:falloCodigo
@@ -24,7 +26,14 @@ end
 
 post '/adivinar' do
     if(@@juego.verificar(params[:Numero].to_i))
-        erb:intento
+        vec = @@juego.numeroTorosVacas(params[:Numero].to_i)
+        @@juego.aumentarIntentos()
+        @numIntentos=@@juego.mostrarIntentos()
+        if(vec[1] == 4)
+            erb:ganador
+        else
+            erb:intento
+        end    
     else
         erb:falloCodigoIntento
     end
