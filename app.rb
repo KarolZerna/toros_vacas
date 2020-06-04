@@ -8,6 +8,10 @@ post '/aceptar' do
     erb :definir
 end
 
-post '/adivinar' do
-    "Hello World"
-  end
+post '/verificar' do
+    if(@jugador1=verificar(params[:Numero].to_i))
+        erb:adivinar
+    else
+        erb:fallo
+    end
+end

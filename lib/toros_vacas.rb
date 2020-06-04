@@ -6,10 +6,23 @@ class TorosVacas
     def aceptarReglamento()
         return @reglamento = true
     end
-    def definirCodigo(cod)
-        @codigo =  cod
+    #def definirCodigo(cod)
+        #if(cod == 1 || cod ==2 )
+           # return true
+       # else
+          #  return false
+       # end
+    #end
+    def is_numeric?(obj) 
+        obj.to_s.match(/\A[+-]?\d+?(\.\d+)?\Z/) == nil ? false : true
     end
-    def getCodigo()
-        return @codigo
+    def verificar(num)
+        aux = num.to_s
+        if(is_numeric?(num) && aux.length == 4 )
+            ans = true
+        else
+            ans = false
+        end
+        return ans
     end
 end
