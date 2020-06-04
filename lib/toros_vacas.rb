@@ -28,10 +28,10 @@ class TorosVacas
         for i in (0..3)
             if (aux[i] == auxCodigo[i])
                 aciertos = aciertos + 1
-            elsif (aux[i].include? auxCodigo)
+            elsif (auxCodigo.include?(aux[i]))
                 coincidencias = coincidencias + 1
             end            
         end
-        return @codigo
+        return "vacas: " + coincidencias.to_s + " toros: " + aciertos.to_s
     end
 end
