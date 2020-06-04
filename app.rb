@@ -3,6 +3,7 @@ require './lib/toros_vacas.rb'
 
 @@juego = TorosVacas.new
 @@numIntentos = 0
+@@ultIntento = "No existe intento previo"
 get '/' do
     erb :inicio
 end
@@ -25,18 +26,20 @@ post '/intento' do
 end
 
 post '/adivinar' do
-    if(@@numIntentos.to_i > 9)
-        erb:perdedor
-    elsif(@@juego.verificar(params[:Numero].to_i))
-        vec = @@juego.numeroTorosVacas(params[:Numero].to_i)
+    if(@@juego.verificar(params[:Adiv].to_i))
         @@juego.aumentarIntentos()
+        @@ultIntento = params[:Adiv].to_s
+        vec = @@juego.numeroTorosVacas(params[:Adiv].to_i)
         @@numIntentos=@@juego.mostrarIntentos()
         if(vec[1] == 4)
             erb:ganador
+        elsif(@@numIntentos.to_i > 10)
+            erb:perdedor
         else
             erb:intento
         end    
     else
         erb:falloCodigoIntento
     end
+    
 end

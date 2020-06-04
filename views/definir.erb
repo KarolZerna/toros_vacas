@@ -22,7 +22,14 @@
             color:#f3f5f9;
             padding:20px;
             text-align: center;
-            margin: auto;
+            margin-top: auto;
+            position:absolute;
+            bottom:0;
+            width:100%;
+        }
+        body{
+          background-color:#f3f5f9;
+          color:#020301;
         }
         header img{
             margin-right:50px;
@@ -58,7 +65,7 @@
             color:#f3f5f9;
             padding:10px;
             border-radius: 3px;
-            width: 200px;
+            width: auto;
             font-size: 20px;
             text-transform: capitalize;
         }
@@ -71,8 +78,9 @@
             padding-top: 30px;
         }
         .insert{
-            border-radius: 3px;
+            border-radius: 5px;
             width: 200px;
+            height:30px;
         }
     </style>
 </head>
@@ -89,12 +97,16 @@
     </div>
     </header>
     <div class="main">
-    <h2>Jugador 1</h2>
-    <p>Ingrese el codigo secreto:</p>
-    <form method='post' action='/verificar'>
-    <input type='text' name='Numero' class"insert">
-    <input type='submit' value= 'Aceptar' class="button">
-    </form>
+        <div class="main-text">
+            <h2>Jugador 1</h2>
+            <p>Ingrese el codigo secreto:</p>
+        </div>
+        <div class="main-form">
+            <form method='post' action='/verificar'>
+            <input type='text' name='Numero' class="insert">
+            <input type='submit' value= 'Aceptar' class="button">
+            </form>
+        </div>
     </div>
 </body>
 <footer>

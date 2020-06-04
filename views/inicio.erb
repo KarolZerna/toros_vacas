@@ -22,7 +22,14 @@
             color:#f3f5f9;
             padding:20px;
             text-align: center;
-            margin: auto;
+            margin-top: auto;
+            position:absolute;
+            bottom:0;
+            width:100%;
+        }
+        body{
+          background-color:#f3f5f9;
+          color:#020301;
         }
         header img{
             margin-right:50px;
@@ -58,7 +65,7 @@
             color:#f3f5f9;
             padding:10px;
             border-radius: 3px;
-            width: 200px;
+            width: auto;
             font-size: 20px;
             text-transform: capitalize;
         }
@@ -86,10 +93,10 @@
     </header>
     <div class="main">
         <h2>Jugador 1 </h2>
-        <p>Debes insertar un código secreto de 4 cifras compuesto solamente de números y no se debe repetir el mismo digito</p>
+        <p>Debes insertar un código secreto de 4 cifras compuesto solamente de números y no se debe repetir el mismo dígito</p>
         <h2>Jugador 2</h2>
         <p>Debes adivinar el código secreto</p>
-        <p>El codigo secreto no tiene dos cifras repetidas</p>
+        <p>El código secreto no tiene dos cifras repetidas</p>
         <p>Un toro indica que uno de los dígitos ingresados
         coincide exactamente con el valor y la posición de uno
         de los dígitos en el código secreto.</p>
@@ -100,7 +107,7 @@
             <h2>Cuentas con 10 intentos  para adivinar el código secreto.</h2>
         </div>
         <form method='post' action='aceptar'>
-            <input type='submit' value='aceptar' class="button">
+            <input type='submit' value='Comenzar' class="button">
         </form>
     </div>
 </body>

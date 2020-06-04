@@ -2,6 +2,7 @@ require 'toros_vacas.rb'
 RSpec.describe TorosVacas do
     before {@juego = TorosVacas.new}
     before {@juego.defCodigo(1234)}
+    before {@juego.defIntentos(1)}
 
     it 'deberia devolver la variable reglamento en true del jugador si es que acepto el reglamento' do
         expect(@juego.aceptarReglamento()).to eq(true)
@@ -26,5 +27,12 @@ RSpec.describe TorosVacas do
     it 'deberia devolver 4 toros, suponiendo que el codigo es 1234'do
         vec = @juego.numeroTorosVacas(1234)
         expect('vacas: ' + vec[0].to_s+' toros: ' + vec[1].to_s).to eq('vacas: 0 toros: 4')
+    end
+    it 'deberia inicializar el numero de intentos en 1' do
+        expect(@juego.mostrarIntentos()).to eq("1")
+    end
+    it 'deberia sumar uno a los intentos de realizados' do
+        @juego.aumentarIntentos()
+        expect(@juego.mostrarIntentos()).to eq("2")
     end
 end

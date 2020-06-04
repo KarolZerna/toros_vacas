@@ -2,7 +2,7 @@ class TorosVacas
     def inicializar
         super()
         @reglamento = false
-        @intentos = 0
+        @intentos = 1
     end
     def aceptarReglamento()
         return @reglamento = true
