@@ -1,6 +1,8 @@
 class TorosVacas
     def inicializar
+        super()
         @reglamento = false
+        @intentos = 0
     end
     def aceptarReglamento()
         return @reglamento = true
@@ -24,7 +26,7 @@ class TorosVacas
         @intentos = num
     end
     def mostrarIntentos()
-        return @intentos
+        return @intentos.to_s
     end
     def aumentarIntentos()
         @intentos = @intentos + 1

@@ -2,7 +2,7 @@ require 'sinatra'
 require './lib/toros_vacas.rb'
 
 @@juego = TorosVacas.new
-
+@@numIntentos = 0
 get '/' do
     erb :inicio
 end
@@ -13,8 +13,8 @@ end
 post '/verificar' do
     if(@@juego.verificar(params[:Numero].to_i))
         @@juego.defCodigo(params[:Numero].to_i)
-        @@juego.defIntentos('1'.to_i)
-        @numIntentos=@@juego.mostrarIntentos()
+        @@juego.defIntentos(1)
+        @@numIntentos=@@juego.mostrarIntentos()
         erb:adivinar
     else
         erb:falloCodigo
@@ -25,10 +25,12 @@ post '/intento' do
 end
 
 post '/adivinar' do
-    if(@@juego.verificar(params[:Numero].to_i))
+    if(@@numIntentos.to_i > 9)
+        erb:perdedor
+    elsif(@@juego.verificar(params[:Numero].to_i))
         vec = @@juego.numeroTorosVacas(params[:Numero].to_i)
         @@juego.aumentarIntentos()
-        @numIntentos=@@juego.mostrarIntentos()
+        @@numIntentos=@@juego.mostrarIntentos()
         if(vec[1] == 4)
             erb:ganador
         else
