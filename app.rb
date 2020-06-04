@@ -12,6 +12,7 @@ post '/aceptar' do
 end
 
 post '/verificar' do
+    @@ultIntento = "No existe intento previo"
     if(@@juego.verificar(params[:Numero].to_i))
         @@juego.defCodigo(params[:Numero].to_i)
         @@juego.defIntentos(1)
