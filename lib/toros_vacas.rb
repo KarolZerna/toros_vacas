@@ -25,9 +25,14 @@ class TorosVacas
     def defIntentos(num)
         @intentos = num
     end
+    def defNombres(j1,j2)
+        @@nickNameJ1 = j1
+        @@nickNameJ2 = j2 
+    end
     def mostrarIntentos()
         return @intentos.to_s
     end
+    
     def aumentarIntentos()
         @intentos = @intentos + 1
     end

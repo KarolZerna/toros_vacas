@@ -4,10 +4,20 @@ require './lib/toros_vacas.rb'
 @@juego = TorosVacas.new
 @@numIntentos = 0
 @@ultIntento = "No existe intento previo"
+@@nickNameJ1 
+@@nickNameJ2
+
 get '/' do
     erb :inicio
 end
+post '/nickname' do
+    erb :defNickName
+end
+
 post '/aceptar' do
+    @@juego.defNombres(params[:Nombre1].to_s,params[:Nombre2].to_s)
+    @@nickNameJ1 = params[:Nombre1].to_s
+    @@nickNameJ2 = params[:Nombre2].to_s
     erb :definir
 end
 

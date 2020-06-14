@@ -77,32 +77,18 @@
             text-align:center;
             padding-top: 30px;
         }
-        .insert{
-            border-radius: 5px;
-            width: 200px;
-            height:30px;
-        }
     </style>
 </head>
 <body>
-    <header>
-    <div class="left">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/968afb90-ac92-44de-a6d9-bbd220b7fa64/dbjfnhu-7ec368ac-aa3c-4ce2-a180-016c70b5b92e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTY4YWZiOTAtYWM5Mi00NGRlLWE2ZDktYmJkMjIwYjdmYTY0XC9kYmpmbmh1LTdlYzM2OGFjLWFhM2MtNGNlMi1hMTgwLTAxNmM3MGI1YjkyZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DblfxQePmgf7fKni9Sx5GnfZ0OeHTHktF7KhzLyq7xo" alt="" width="95px">
-    </div>
-    <div clas="titlo-container">
-        <h1 class="titulo">Toros y Vacas</h1>
-    </div>
-    <div class="right">
-        <img src="https://flaticons.net/icon.php?slug_category=wildlife&slug_icon=cow" alt="" width="95px" class="vaca">
-    </div>
-    </header>
-    <div class="main">
-    <h2><%= @@nickNameJ1 %> GANO EL JUEGO</h2>
-    <h2><%= @@nickNameJ2 %> PERDIO EL JUEGO</h2>
-    <form method='post' action='/nickname'>
-    <input type='submit' value= 'Volver a Jugar' class="button">
+    <h2>Jugador 1 </h2>
+    <p>Debes ingresar tu nombre</p>
+    <h2>Jugador 2</h2>
+    <p>Debes ingresar tu nombre</p>
+    <form method='post' action='/aceptar'>
+        <input type='text' name='Nombre1' class="insert">
+        <input type='text' name='Nombre2' class="insert">
+        <input type='submit' value='Ingresar' class="button">
     </form>
-    </div>
 </body>
 <footer>
     <p>By: Daniel Acero, Mercedes La Fuente, Juslan Vargas, Karol Zerna</p>
