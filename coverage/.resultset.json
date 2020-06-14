@@ -1,7 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "C:/Users/Camaras/toros_vacas/app.rb": {
+      "C:/toros_vacas/app.rb": {
         "lines": [
           1,
           1,
@@ -17,12 +17,12 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           0,
           null,
@@ -51,7 +51,7 @@
           null
         ]
       },
-      "C:/Users/Camaras/toros_vacas/lib/toros_vacas.rb": {
+      "C:/toros_vacas/lib/toros_vacas.rb": {
         "lines": [
           1,
           1,
@@ -63,25 +63,25 @@
           0,
           null,
           1,
-          0,
+          1,
           null,
           1,
-          0,
-          0,
-          0,
-          null,
-          0,
+          1,
+          1,
+          1,
           null,
           0,
           null,
           1,
-          0,
           null,
           1,
-          0,
+          1,
           null,
           1,
-          0,
+          1,
+          null,
+          1,
+          1,
           null,
           1,
           0,
@@ -116,7 +116,7 @@
           null
         ]
       },
-      "C:/Users/Camaras/toros_vacas/features/step_definitions/ingresarCodigo_steps.rb": {
+      "C:/toros_vacas/features/step_definitions/ingresarCodigo_steps.rb": {
         "lines": [
           1,
           1,
@@ -127,7 +127,11 @@
           null,
           null,
           1,
+          1,
           null,
+          null,
+          1,
+          1,
           null,
           null,
           1,
@@ -135,11 +139,11 @@
           null,
           null,
           1,
-          0,
+          1,
           null
         ]
       },
-      "C:/Users/Camaras/toros_vacas/features/step_definitions/template_steps.rb": {
+      "C:/toros_vacas/features/step_definitions/template_steps.rb": {
         "lines": [
           1,
           0,
@@ -182,11 +186,11 @@
         ]
       }
     },
-    "timestamp": 1591882359
+    "timestamp": 1592154000
   },
   "RSpec": {
     "coverage": {
-      "C:/Users/Camaras/toros_vacas/spec/toros_vacas_spec.rb": {
+      "C:/toros_vacas/spec/toros_vacas_spec.rb": {
         "lines": [
           1,
           1,
@@ -228,7 +232,7 @@
           null
         ]
       },
-      "C:/Users/Camaras/toros_vacas/lib/toros_vacas.rb": {
+      "C:/toros_vacas/lib/toros_vacas.rb": {
         "lines": [
           1,
           1,
@@ -294,6 +298,6 @@
         ]
       }
     },
-    "timestamp": 1591879842
+    "timestamp": 1592152520
   }
 }

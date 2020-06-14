@@ -6,7 +6,7 @@ Feature:
     Scenario:
     Given estoy en la pagina de inicio
     And presionamos el boton de "Comenzar"
-    When ingreso el codigo secreto "1234"
+    When ingreso en "Numero" el codigo secreto "1234"
     And presiono el boton de "Aceptar"
-    Then deberia ver "Jugador 2"
-    And deberia ver "Número de intento : 1"
+    Then deberiamos ver "Jugador 2"
+    And deberia ver "Número de intento  : 1"
