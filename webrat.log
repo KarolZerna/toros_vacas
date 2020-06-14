@@ -70,3 +70,10 @@ D, [2020-06-14T12:58:17.564554 #8060] DEBUG -- : REQUESTING PAGE: POST /verifica
 D, [2020-06-14T13:00:00.636239 #8808] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2020-06-14T13:00:00.726586 #8808] DEBUG -- : REQUESTING PAGE: POST aceptar with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2020-06-14T13:00:00.750335 #8808] DEBUG -- : REQUESTING PAGE: POST /verificar with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"aceptar"}
+D, [2020-06-14T17:18:39.404119 #11720] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-14T17:18:39.499639 #11720] DEBUG -- : REQUESTING PAGE: POST aceptar with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-14T17:18:39.520624 #11720] DEBUG -- : REQUESTING PAGE: POST /verificar with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"aceptar"}
+D, [2020-06-14T17:18:39.565285 #11720] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-14T17:18:39.580604 #11720] DEBUG -- : REQUESTING PAGE: POST aceptar with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-14T17:18:39.590957 #11720] DEBUG -- : REQUESTING PAGE: POST /verificar with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"aceptar"}
+D, [2020-06-14T17:18:39.620680 #11720] DEBUG -- : REQUESTING PAGE: POST /adivinar with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificar"}
