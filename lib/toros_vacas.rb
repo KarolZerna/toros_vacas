@@ -7,12 +7,59 @@ class TorosVacas
     def aceptarReglamento()
         return @reglamento = true
     end
+    
     def is_numeric?(obj) 
         obj.to_s.match(/\A[+-]?\d+?(\.\d+)?\Z/) == nil ? false : true
     end
-    def verificar(num)
+    def setTipoCodigo(tipo)
+        if(tipo == "NUMERO")
+            @tipoCodigo = tipo
+        else
+            @tipoCodigo = tipo
+        end
+    end
+    def setTamCodigo(dificultad)
+        if(dificultad == "HARD")
+            @tamCodigo = 8
+        elsif (dificultad == "MEDIUM")
+            @tamCodigo = 6
+        else
+            @tamCodigo = 4
+        end
+    end
+    
+    # Rojo, Blanco, Verde, Negro, Azul, Gris, Cafe, Purpura, Dorado
+    def verficarLetras(letras)
+        aux = letras.to_s
+        ans = 0
+        veri = false
+        for i in (0..letras.length) 
+            if( aux[i] = 'R' || aux[i] = 'B' || aux[i] = 'V' || aux[i] = 'N' || aux[i] = 'A' || aux[i] = 'G' || aux[i] = 'C' || aux[i] = 'P' || aux[i] = 'D' )
+                ans = ans + 1 
+            end
+        end
+        if(ans == letras.length)
+            veri=true
+        end
+        return veri
+    end
+    # cifras: 4,6,8
+    def verificarLetrasGeneral(palabra)
+        aux = palabra.to_s
+        ans = false
+        if(is_numeric?(palabra))
+            ans = false
+        elsif aux.length == @tamCodigo
+            if(verificarLetras(palabra))
+                ans = true
+            end
+        end
+        return ans
+    end
+    # cifras: 4,6,8
+    def verificarNumeros(num)
         aux = num.to_s
-        if(is_numeric?(num) && aux.length == 4 )
+        if(is_numeric?(num) && aux.length == @tamCodigo )
             ans = true
         else
             ans = false
@@ -50,6 +97,7 @@ class TorosVacas
         end
         return "vacas: " + coincidencias.to_s + " toros: " + aciertos.to_s
     end
+    
     def numeroTorosVacas(numIntento) 
         auxCodigo = @codigo.to_s
         aux = numIntento.to_s
@@ -63,4 +111,8 @@ class TorosVacas
         end
         return ans
     end
+    def getTipoCodigo()
+        return @tipoCodigo
+    end
+
 end

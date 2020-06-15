@@ -21,10 +21,7 @@
             background-color:#020301;
             color:#f3f5f9;
             padding:20px;
-            text-align: center;
-            margin-top: auto;
-            position:absolute;
-            bottom:0;
+            text-align: center;            
             width:100%;
         }
         body{
@@ -77,17 +74,31 @@
             text-align:center;
             padding-top: 30px;
         }
+        .buts{
+            padding-top:10px;
+        }
     </style>
 </head>
 <body>
-    <h2>Jugador 1 </h2>
-    <p>Debes ingresar tu nombre</p>
-    <h2>Jugador 2</h2>
-    <p>Debes ingresar tu nombre</p>
     <form method='post' action='/aceptar'>
+        <h2>CONFIGURACIONES JUGADOR 1</h2>
+        <p>Debes ingresar tu nombre</p>
         <input type='text' name='Nombre1' class="insert">
+        <p>HARD : el codigo secreto tendra 8 digitos</p>
+        <p>MEDIUM : el codigo secreto tendra 6 digitos</p>
+        <p>EASY : el codigo secreto tendra 4 digitos</p>
+        <p>Debes ingresar la dificultad EASY-MEDIUM-HARD</p>
+        <input type='text' name='dificultad' class="insert">
+        <p>Codigo numerico: el codigo tendra solamente numeros </p>
+        <p>Codigo de colores: el codigo tendra solamente letras, que seran iniciales de los colores </p>
+        <p>Debes ingresar NUMEROS O COLORES</p>
+        <input type='text' name='codigo' class="insert">
+        <h2>CONFIGURACIONES JUGADOR 2</h2>
+        <p>Debes ingresar tu nombre</p> 
         <input type='text' name='Nombre2' class="insert">
-        <input type='submit' value='Ingresar' class="button">
+        <div class="buts">
+          <input type='submit' value='Ingresar' class="button">
+        </div>
     </form>
 </body>
 <footer>

@@ -97,16 +97,10 @@
     </div>
     </header>
     <div class="main">
-        <div class="main-text">
-            <h2><%= @@nickNameJ1 %></h2>
-            <p>Ingrese el codigo secreto:</p>
-        </div>
-        <div class="main-form">
-            <form method='post' action='/verificar'>
-            <input type='text' name='Numero' class="insert">
-            <input type='submit' value= 'Aceptar' class="button">
-            </form>
-        </div>
+      <h2>Tipo codigo (NUMEROS-LETRAS) ingresado incorrectamente, vuelva a intentar:</h2>
+      <form method='post' action='/nickname'>
+      <input type='submit' value= 'Volver a Ingresar' class="button">
+      </form>
     </div>
 </body>
 <footer>

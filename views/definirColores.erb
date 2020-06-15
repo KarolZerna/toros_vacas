@@ -97,14 +97,18 @@
     </div>
     </header>
     <div class="main">
-      <h2><%= @@nickNameJ2 %></h2>
-      <p>Referencia de colores </p>
-      <p>Rojo, Blanco, Verde, Negro, Azul, Gris, Cafe, Purpura, Dorado</p>
-      <p>Intento anterior: <%= @@ultIntento %></p>
-      <form method='post' action='/adivinar'>
-      <input type='text' name='Adiv' class="insert">
-      <input type='submit' value= 'Aceptar' class="button">
-      </form>
+                <div class="main-text">
+            <h2><%= @@nickNameJ1 %></h2>
+            <p>Referencia de colores </p>
+            <p>Rojo, Blanco, Verde, Negro, Azul, Gris, Cafe, Purpura, Dorado</p>
+            <p>Ingrese el codigo secreto:</p>
+        </div>
+        <div class="main-form">
+            <form method='post' action='/verificarColores'>
+            <input type='text' name='Color' class="insert">
+            <input type='submit' value= 'Aceptar' class="button">
+            </form>
+        </div>
     </div>
 </body>
 <footer>

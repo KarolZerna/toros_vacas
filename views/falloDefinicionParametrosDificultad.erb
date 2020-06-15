@@ -97,13 +97,9 @@
     </div>
     </header>
     <div class="main">
-      <h2><%= @@nickNameJ2 %></h2>
-      <p>Referencia de colores </p>
-      <p>Rojo, Blanco, Verde, Negro, Azul, Gris, Cafe, Purpura, Dorado</p>
-      <p>Intento anterior: <%= @@ultIntento %></p>
-      <form method='post' action='/adivinar'>
-      <input type='text' name='Adiv' class="insert">
-      <input type='submit' value= 'Aceptar' class="button">
+      <h2>Dificultad ingresada incorrectamente, vuelva a intentar:</h2>
+      <form method='post' action='/nickname'>
+      <input type='submit' value= 'Volver a Ingresar' class="button">
       </form>
     </div>
 </body>
