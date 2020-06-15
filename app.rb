@@ -23,6 +23,7 @@ post '/aceptar' do
         if(params[:codigo].to_s == "NUMEROS" ||params[:codigo].to_s == "COLORES" )
             @@juego.setTamCodigo(params[:dificultad].to_s)
             @@juego.setTipoCodigo(params[:codigo].to_s)
+            @@juego.setLimiteIntentos(params[:intentos].to_i)
             if(params[:codigo].to_s == "NUMEROS")
                 erb :definirNumeros
             else
@@ -39,9 +40,11 @@ end
 post '/definirNumero' do
     erb :definirNumeros
 end
+
 post '/definirColor' do
     erb :definirColores
 end
+
 post '/verificarColores' do
     @@ultIntento = "No existe intento previo"
     if(@@juego.verificarLetrasGeneral(params[:Color].to_s))
@@ -76,13 +79,14 @@ end
 
 post '/adivinarNumero' do
     if(@@juego.verificarNumeros(params[:Adiv].to_i))
+        numeroDeIntentos=@@juego.getLimiteIntentos()
         @@juego.aumentarIntentos()
         @@ultIntento = params[:Adiv].to_s
         vec = @@juego.numeroTorosVacas(params[:Adiv].to_i)
         @@numIntentos=@@juego.mostrarIntentos()
         if(vec[1] == @@juego.getTamCodigo())
             erb:ganador
-        elsif(@@numIntentos.to_i > 10)
+        elsif(@@numIntentos.to_i > numeroDeIntentos)
             erb:perdedor
         else
             erb:intentoNumero
@@ -95,12 +99,13 @@ end
 post '/adivinarColor' do
     if(@@juego.verificarLetrasGeneral(params[:Adiv].to_s))
         @@juego.aumentarIntentos()
+        numeroDeIntentos=@@juego.getLimiteIntentos()
         @@ultIntento = params[:Adiv].to_s
         vec = @@juego.numeroTorosVacas(params[:Adiv].to_s)
         @@numIntentos=@@juego.mostrarIntentos()
         if(vec[1] == @@juego.getTamCodigo())
             erb:ganador
-        elsif(@@numIntentos.to_i > 10)
+        elsif(@@numIntentos.to_i > numeroDeIntentos)
             erb:perdedor
         else
             erb:intentoColor

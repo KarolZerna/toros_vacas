@@ -68,12 +68,21 @@ class TorosVacas
         end
         return ans
     end
+
     def defCodigo(num)
         @codigo = num
-    end 
+    end
+
+    def setLimiteIntentos(num)
+        @limiteIntentos = num
+    end
+    def getLimiteIntentos()
+        return @limiteIntentos
+    end
     def defIntentos(num)
         @intentos = num
     end
+   
     def defNombres(j1,j2)
         @@nickNameJ1 = j1
         @@nickNameJ2 = j2 
