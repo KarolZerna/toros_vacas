@@ -99,7 +99,7 @@ class TorosVacas
         aux = numIntento.to_s
         coincidencias = 0
         aciertos = 0
-        for i in (0..@tamCodigo-1)
+        for i in (0..@tamCodigo - 1)
             if (aux[i] == auxCodigo[i])
                 aciertos = aciertos + 1
             elsif (auxCodigo.include?(aux[i]))
@@ -113,7 +113,7 @@ class TorosVacas
         auxCodigo = @codigo.to_s
         aux = numIntento.to_s
         ans=[0,0]
-        for i in (0..@tamCodigo-1)
+        for i in (0..@tamCodigo - 1)
             if (aux[i] == auxCodigo[i])
                 ans[1] = ans[1] + 1
             elsif (auxCodigo.include?(aux[i]))
