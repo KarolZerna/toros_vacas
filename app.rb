@@ -44,11 +44,11 @@ post '/definirColor' do
 end
 post '/verificarColores' do
     @@ultIntento = "No existe intento previo"
-    if(@@juego.verificarLetrasGeneral(params[:Numero].to_s))
+    if(@@juego.verificarLetrasGeneral(params[:Color].to_s))
         @@juego.defCodigo(params[:Color].to_s)
         @@juego.defIntentos(1)
         @@numIntentos=@@juego.mostrarIntentos()
-        erb:adivinar
+        erb:adivinarColor
     else
         erb:falloCodigoColores
     end
@@ -60,31 +60,52 @@ post '/verificarNumeros' do
         @@juego.defCodigo(params[:Numero].to_i)
         @@juego.defIntentos(1)
         @@numIntentos=@@juego.mostrarIntentos()
-        erb:adivinar
+        erb:adivinarNumero
     else
         erb:falloCodigoNumeros
     end
 end
 
-post '/intento' do
-    erb:adivinar
+post '/intentoNumero' do
+    erb:adivinarNumero
 end
 
-post '/adivinar' do
-    if(@@juego.verificar(params[:Adiv].to_i))
+post '/intentoColor' do
+    erb:adivinarColor
+end
+
+post '/adivinarNumero' do
+    if(@@juego.verificarNumeros(params[:Adiv].to_i))
         @@juego.aumentarIntentos()
         @@ultIntento = params[:Adiv].to_s
         vec = @@juego.numeroTorosVacas(params[:Adiv].to_i)
         @@numIntentos=@@juego.mostrarIntentos()
-        if(vec[1] == 4)
+        if(vec[1] == @@juego.getTamCodigo())
             erb:ganador
         elsif(@@numIntentos.to_i > 10)
             erb:perdedor
         else
-            erb:intento
+            erb:intentoNumero
         end    
     else
-        erb:falloCodigoIntento
-    end
-    
+        erb:falloCodigoIntentoNumero
+    end 
+end
+
+post '/adivinarColor' do
+    if(@@juego.verificarLetrasGeneral(params[:Adiv].to_s))
+        @@juego.aumentarIntentos()
+        @@ultIntento = params[:Adiv].to_s
+        vec = @@juego.numeroTorosVacas(params[:Adiv].to_s)
+        @@numIntentos=@@juego.mostrarIntentos()
+        if(vec[1] == @@juego.getTamCodigo())
+            erb:ganador
+        elsif(@@numIntentos.to_i > 10)
+            erb:perdedor
+        else
+            erb:intentoColor
+        end    
+    else
+        erb:falloCodigoIntentoColor
+    end 
 end

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title>Toros y vacas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/968afb90-ac92-44de-a6d9-bbd220b7fa64/dbjfnhu-7ec368ac-aa3c-4ce2-a180-016c70b5b92e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTY4YWZiOTAtYWM5Mi00NGRlLWE2ZDktYmJkMjIwYjdmYTY0XC9kYmpmbmh1LTdlYzM2OGFjLWFhM2MtNGNlMi1hMTgwLTAxNmM3MGI1YjkyZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DblfxQePmgf7fKni9Sx5GnfZ0OeHTHktF7KhzLyq7xo" type="image/png">
+    <style type = text/css> 
+        html{
+            font-family: 'Montserrat', sans-serif;
+        }
+        header{
+            height: 95px;
+            margin:auto;
+            display:flex;
+            text-align:justify;
+            justify-content: space-between;
+            background-color:#020301;
+            color:#f3f5f9;
+            padding:20px;
+        }
+        footer{
+            background-color:#020301;
+            color:#f3f5f9;
+            padding:20px;
+            text-align: center;
+            margin-top: auto;
+            position:absolute;
+            bottom:0;
+            width:100%;
+        }
+        body{
+          background-color:#f3f5f9;
+          color:#020301;
+        }
+        header img{
+            margin-right:50px;
+        }
+        header .left{
+            display: flex;
+        }
+        header img .vaca{
+            text-align: right;
+            margin: 0px;
+        }
+
+        header .titulo-container{
+            margin:0px;
+            align-content: center;
+            height: 30px;
+        }
+        body{
+            margin:0px;
+
+        }
+        body .main{
+            background-color:#f3f5f9;
+            color:#020301;
+            padding:30px;
+            margin:0px;
+        }
+        form{
+            text-align: center;
+        }
+        .button{
+            background-color:#020301;
+            color:#f3f5f9;
+            padding:10px;
+            border-radius: 3px;
+            width: auto;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+        .button:hover{
+            background-color:#90adc6;
+            color:#020301;
+        }
+        .last-title{
+            text-align:center;
+            padding-top: 30px;
+        }
+        .insert{
+            border-radius: 5px;
+            width: 200px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="left">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/968afb90-ac92-44de-a6d9-bbd220b7fa64/dbjfnhu-7ec368ac-aa3c-4ce2-a180-016c70b5b92e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTY4YWZiOTAtYWM5Mi00NGRlLWE2ZDktYmJkMjIwYjdmYTY0XC9kYmpmbmh1LTdlYzM2OGFjLWFhM2MtNGNlMi1hMTgwLTAxNmM3MGI1YjkyZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DblfxQePmgf7fKni9Sx5GnfZ0OeHTHktF7KhzLyq7xo" alt="" width="95px">
+    </div>
+    <div clas="titlo-container">
+        <h1 class="titulo">Toros y Vacas</h1>
+    </div>
+    <div class="right">
+        <img src="https://flaticons.net/icon.php?slug_category=wildlife&slug_icon=cow" alt="" width="95px" class="vaca">
+    </div>
+    </header>
+    <div class="main">
+    <h1>El marcador actual es <%= @@juego.mostrarToros_Vacas(params[:Adiv]) %></h1>
+    <form method='post' action='/intentoColor'>
+    <input type='submit' value= 'Volver a Ingresar un Intento' class="button">
+    </form>
+    </div>
+</body>
+<footer>
+    <p>By: Daniel Acero, Mercedes La Fuente, Juslan Vargas, Karol Zerna</p>
+</footer>
+</html>

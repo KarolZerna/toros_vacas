@@ -97,8 +97,9 @@
     </div>
     </header>
     <div class="main">
-    <h1>El marcador actual es <%= @@juego.mostrarToros_Vacas(params[:Adiv]) %></h1>
-    <form method='post' action='/intento'>
+    <h2>El intento ingresado es erroneo, el código debería contener solo números y 4 dígitos.</h2>
+    <h3>Vuelva a intentar:</h3>
+    <form method='post' action='/intentoNumero'>
     <input type='submit' value= 'Volver a Ingresar un Intento' class="button">
     </form>
     </div>

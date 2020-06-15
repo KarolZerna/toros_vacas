@@ -27,18 +27,20 @@ class TorosVacas
             @tamCodigo = 4
         end
     end
-    
+    def getTamCodigo()
+        return @tamCodigo
+    end
     # Rojo, Blanco, Verde, Negro, Azul, Gris, Cafe, Purpura, Dorado
-    def verficarLetras(letras)
+    def verificarLetras(letras)
         aux = letras.to_s
         ans = 0
         veri = false
-        for i in (0..letras.length) 
-            if( aux[i] = 'R' || aux[i] = 'B' || aux[i] = 'V' || aux[i] = 'N' || aux[i] = 'A' || aux[i] = 'G' || aux[i] = 'C' || aux[i] = 'P' || aux[i] = 'D' )
+        for i in (0..@tamCodigo-1) 
+            if( aux[i] == 'R' || aux[i] == 'B' || aux[i] == 'V' || aux[i] == 'N' || aux[i] == 'A' || aux[i] == 'G' || aux[i] == 'C' || aux[i] == 'P' || aux[i] == 'D' )
                 ans = ans + 1 
             end
         end
-        if(ans == letras.length)
+        if(ans == @tamCodigo)
             veri=true
         end
         return veri
@@ -88,7 +90,7 @@ class TorosVacas
         aux = numIntento.to_s
         coincidencias = 0
         aciertos = 0
-        for i in (0..3)
+        for i in (0..@tamCodigo-1)
             if (aux[i] == auxCodigo[i])
                 aciertos = aciertos + 1
             elsif (auxCodigo.include?(aux[i]))
@@ -102,7 +104,7 @@ class TorosVacas
         auxCodigo = @codigo.to_s
         aux = numIntento.to_s
         ans=[0,0]
-        for i in (0..3)
+        for i in (0..@tamCodigo-1)
             if (aux[i] == auxCodigo[i])
                 ans[1] = ans[1] + 1
             elsif (auxCodigo.include?(aux[i]))

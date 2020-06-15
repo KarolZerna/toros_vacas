@@ -97,14 +97,11 @@
     </div>
     </header>
     <div class="main">
-      <h2><%= @@nickNameJ2 %></h2>
-      <p>Referencia de colores </p>
-      <p>Rojo, Blanco, Verde, Negro, Azul, Gris, Cafe, Purpura, Dorado</p>
-      <p>Intento anterior: <%= @@ultIntento %></p>
-      <form method='post' action='/adivinar'>
-      <input type='text' name='Adiv' class="insert">
-      <input type='submit' value= 'Aceptar' class="button">
-      </form>
+    <h2>El intento ingresado es erroneo, el código debería contener solo números y 4 dígitos.</h2>
+    <h3>Vuelva a intentar:</h3>
+    <form method='post' action='/intentoColor'>
+    <input type='submit' value= 'Volver a Ingresar un Intento' class="button">
+    </form>
     </div>
 </body>
 <footer>
