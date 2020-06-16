@@ -745,3 +745,487 @@ D, [2020-06-16T00:01:22.791446 #2776] DEBUG -- : REQUESTING PAGE: POST /nickname
 D, [2020-06-16T00:01:22.801175 #2776] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
 D, [2020-06-16T00:01:23.228955 #2776] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
 D, [2020-06-16T00:01:23.563597 #2776] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:11:22.660415 #13220] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:11:22.796299 #13220] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:11:22.822363 #13220] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:11:23.135780 #13220] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:11:23.778757 #13220] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:11:23.784279 #13220] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:11:23.832951 #13220] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:11:24.261613 #13220] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:11:24.271768 #13220] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:11:24.320513 #13220] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:11:24.630939 #13220] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:11:24.659227 #13220] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:11:24.666320 #13220] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:11:24.904380 #13220] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:11:25.247623 #13220] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:11:26.667875 #13220] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:11:26.675154 #13220] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:11:26.683785 #13220] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:11:26.911045 #13220] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:11:27.274758 #13220] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:13:40.473641 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:40.588790 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:40.629059 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:40.954949 #14164] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:13:41.569201 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:41.572915 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:41.611748 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:41.984458 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:41.988347 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:42.037667 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:42.389952 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:42.397080 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:42.404640 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:42.626730 #14164] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:13:42.998032 #14164] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:13:43.594157 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:43.606298 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:43.669655 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:44.107125 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:44.132921 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:44.238210 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:46.938128 #14164] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:13:46.942247 #14164] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:13:46.952455 #14164] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:13:47.188465 #14164] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:13:47.507685 #14164] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:17:32.631131 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:32.759194 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:32.776911 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:33.127855 #9036] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:17:33.741942 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:33.753041 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:33.814401 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:34.166268 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:34.177502 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:34.248521 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:34.597553 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:34.602002 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:34.610383 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:34.862594 #9036] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:17:35.201090 #9036] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:17:35.816067 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:35.822036 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:35.866843 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:36.287914 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:36.298559 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:36.362858 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:38.617908 #9036] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:17:38.629143 #9036] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:17:38.635794 #9036] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:17:38.852724 #9036] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:17:39.167223 #9036] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:19:00.006021 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:00.146317 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:00.178831 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:00.484602 #11864] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:19:01.038160 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:01.048898 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:01.090305 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:01.455432 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:01.464864 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:01.505303 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:01.920634 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:01.945508 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:01.962789 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:02.186084 #11864] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:19:02.539474 #11864] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:19:03.151937 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:03.156763 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:03.206644 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:03.640052 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:03.657649 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:03.734336 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:06.584154 #11864] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:19:06.588253 #11864] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:19:06.595844 #11864] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:19:06.834135 #11864] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:19:07.154924 #11864] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:27:02.716823 #8872] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:27:02.875559 #8872] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:27:02.912882 #8872] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:27:03.325348 #8872] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:27:04.023529 #8872] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:27:04.047968 #8872] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:27:04.125323 #8872] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:27:04.542011 #8872] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:27:04.546859 #8872] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:27:04.607004 #8872] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:27:04.943435 #8872] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:27:04.948383 #8872] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:27:04.959540 #8872] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:27:05.296350 #8872] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:27:06.047802 #8872] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:27:07.223429 #8872] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:27:07.235480 #8872] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:27:07.989254 #8872] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:27:07.996369 #8872] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:27:08.025297 #8872] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:27:08.477348 #8872] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:27:09.128473 #8872] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:28:49.897278 #16076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:28:50.029845 #16076] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:28:50.058570 #16076] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:28:50.369145 #16076] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:28:50.968373 #16076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:28:50.999188 #16076] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:28:51.033981 #16076] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:28:51.412666 #16076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:28:51.417198 #16076] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:28:51.484316 #16076] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:28:51.815705 #16076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:28:51.822492 #16076] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:28:51.833241 #16076] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:28:52.093841 #16076] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:28:52.449926 #16076] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:28:53.030991 #16076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:28:53.035928 #16076] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:28:53.081380 #16076] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:28:53.644625 #16076] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:28:53.649094 #16076] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:28:53.656452 #16076] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:28:53.886628 #16076] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:28:54.228622 #16076] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:29:37.124642 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:37.267887 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:37.287275 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:37.601336 #13276] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:29:38.181542 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:38.192010 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:38.235326 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:38.617475 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:38.622180 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:38.681332 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:38.976758 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:38.983673 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:38.989360 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:39.225050 #13276] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:29:39.563233 #13276] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:29:40.120605 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:40.133585 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:40.175016 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:40.522033 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:40.531746 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:40.569093 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:42.840262 #13276] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:29:42.848429 #13276] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:29:42.853898 #13276] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:29:43.055968 #13276] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:29:43.400279 #13276] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:54:09.654762 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:09.783009 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:09.800929 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:10.130847 #16616] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:54:10.786511 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:10.798193 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:10.849937 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:11.255896 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:11.261097 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:11.338092 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:11.670920 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:11.675951 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:11.682469 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:11.907717 #16616] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:54:12.240335 #16616] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:54:12.806778 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:12.816519 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:12.868738 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:13.237851 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:13.241765 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:13.298323 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:15.960576 #16616] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:54:15.972279 #16616] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:54:15.980713 #16616] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:54:16.204676 #16616] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:54:16.554513 #16616] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:56:43.728277 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:43.861351 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:43.890952 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:44.227216 #6888] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:56:44.811579 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:44.815807 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:44.868360 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:45.329002 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:45.334242 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:45.395640 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:45.757962 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:45.762452 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:45.771322 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:46.016704 #6888] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:56:46.376101 #6888] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:56:46.976663 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:46.981784 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:47.026307 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:47.407136 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:47.415392 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:47.532276 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:50.586148 #6888] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:56:50.605043 #6888] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:56:50.615379 #6888] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:56:51.031109 #6888] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:56:51.512759 #6888] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:59:05.208245 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:05.359330 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:05.387174 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:05.733831 #5080] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:59:06.289232 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:06.308989 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:06.361329 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:06.778133 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:06.784840 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:06.833454 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:07.150950 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:07.155980 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:07.163804 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:07.404447 #5080] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:59:07.798080 #5080] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T00:59:08.347349 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:08.351486 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:08.398689 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:08.819072 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:08.823524 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:08.876788 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:11.210516 #5080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T00:59:11.217223 #5080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T00:59:11.223355 #5080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T00:59:11.439398 #5080] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T00:59:11.772220 #5080] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:00:33.797709 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:33.963334 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:34.019592 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:34.380839 #13508] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:00:35.094727 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:35.116579 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:35.158100 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:35.589668 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:35.594621 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:35.643838 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:36.047106 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:36.053675 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:36.058926 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:36.308820 #13508] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:00:36.702166 #13508] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:00:37.280995 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:37.299215 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:37.345553 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:37.878217 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:37.894516 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:38.144403 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:39.304831 #13508] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:00:39.311158 #13508] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:00:39.324196 #13508] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:00:39.557964 #13508] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:00:39.942028 #13508] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:02:37.886304 #13524] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:02:38.032561 #13524] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:02:38.060645 #13524] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:02:38.411263 #13524] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:02:39.030303 #13524] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:02:39.034011 #13524] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:02:39.103055 #13524] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:02:39.510298 #13524] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:02:39.516122 #13524] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:02:39.563156 #13524] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:02:39.895299 #13524] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:02:39.898916 #13524] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:02:39.908149 #13524] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:02:40.188035 #13524] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:02:40.559013 #13524] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:02:41.125332 #13524] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:02:41.129853 #13524] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:02:41.179686 #13524] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:02:41.613586 #13524] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:02:41.625272 #13524] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:02:41.724088 #13524] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:47.169189 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:47.317475 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:47.357317 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:47.674904 #10452] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:05:48.523711 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:48.566060 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:48.618133 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:49.094322 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:49.127404 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:49.208402 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:49.676164 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:49.687589 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:49.693338 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:50.010523 #10452] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:05:50.459750 #10452] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:05:51.291930 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:51.297709 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:51.356336 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:51.843156 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:51.851583 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:51.924462 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:52.743897 #10452] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:05:52.751458 #10452] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:05:52.757944 #10452] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:05:53.007623 #10452] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:05:53.460290 #10452] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:06:24.056559 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:24.188033 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:24.203704 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:24.595658 #3784] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:06:25.423078 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:25.428551 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:25.513835 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:25.995231 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:26.005971 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:26.057140 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:26.554432 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:26.558578 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:26.566779 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:26.879959 #3784] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:06:27.328947 #3784] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:06:28.082507 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:28.090547 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:28.149666 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:28.627092 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:28.637850 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:28.702596 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:29.551326 #3784] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:06:29.557423 #3784] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:06:29.563177 #3784] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:06:29.859643 #3784] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:06:30.293733 #3784] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:08:28.772527 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:28.917874 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:28.950018 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:29.349488 #3084] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:08:30.099860 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:30.103986 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:30.168280 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:30.686150 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:30.698051 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:30.763059 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:31.150367 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:31.162774 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:31.175624 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:31.509959 #3084] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:08:31.934243 #3084] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:08:32.698420 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:32.702041 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:32.763470 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:33.852921 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:33.862934 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:33.951570 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:34.781543 #3084] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:08:34.785112 #3084] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:08:34.813362 #3084] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:08:35.094823 #3084] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:08:35.547624 #3084] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:10:46.087351 #320] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:10:46.210799 #320] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:10:46.229000 #320] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:10:46.619189 #320] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:10:47.453487 #320] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:10:47.457225 #320] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:10:47.524160 #320] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:10:48.139394 #320] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:10:48.149098 #320] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:10:48.159224 #320] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:10:48.455185 #320] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:10:48.870460 #320] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:10:49.573111 #320] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:10:49.582781 #320] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:10:49.659508 #320] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:10:50.588388 #320] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:10:50.611420 #320] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:10:50.621171 #320] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:10:50.905438 #320] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:10:51.354768 #320] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:11:23.321113 #10552] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:11:23.454038 #10552] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:11:23.471382 #10552] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:11:23.860687 #10552] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:11:24.687312 #10552] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:11:24.700394 #10552] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:11:24.755930 #10552] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:11:25.232893 #10552] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:11:25.271381 #10552] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:11:25.356687 #10552] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:11:25.741518 #10552] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:11:25.745085 #10552] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:11:25.755826 #10552] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:11:26.070356 #10552] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:11:26.677222 #10552] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:11:27.692827 #10552] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:11:27.704250 #10552] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:11:27.766475 #10552] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:11:28.326756 #10552] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:11:28.338912 #10552] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:11:28.352918 #10552] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:11:28.623194 #10552] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:11:29.070063 #10552] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:16:11.664084 #12232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:11.804941 #12232] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:11.821964 #12232] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:16:12.173840 #12232] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:16:12.969850 #12232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:12.974098 #12232] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:13.038600 #12232] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:16:13.541177 #12232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:13.552342 #12232] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:13.616520 #12232] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:16:14.125438 #12232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:14.136153 #12232] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:14.141453 #12232] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:16:14.458693 #12232] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:16:14.917704 #12232] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:16:15.654621 #12232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:15.690968 #12232] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:15.723468 #12232] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:16:16.430436 #12232] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:16.438568 #12232] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:16.453828 #12232] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:16:16.724355 #12232] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:16:17.805201 #12232] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:16:59.576944 #13044] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:16:59.721057 #13044] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:16:59.742964 #13044] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:17:00.108896 #13044] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:17:00.903302 #13044] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:17:00.907355 #13044] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:17:00.972735 #13044] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:17:01.439793 #13044] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:17:01.445924 #13044] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:17:01.502467 #13044] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:17:01.924452 #13044] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:17:01.930029 #13044] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:17:01.942861 #13044] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:17:02.243606 #13044] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:17:02.706936 #13044] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:17:03.370128 #13044] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:17:03.391056 #13044] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:17:03.424915 #13044] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:17:03.864737 #13044] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:17:03.872145 #13044] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:17:03.877059 #13044] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:17:04.105594 #13044] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:17:04.452150 #13044] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:20:19.979457 #7080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:20:20.100739 #7080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:20:20.116370 #7080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:20:20.272464 #7080] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:20:20.701586 #7080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:20:20.711941 #7080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:20:20.745535 #7080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARD", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:20:21.002125 #7080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:20:21.013586 #7080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:20:21.067727 #7080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"HARDLY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:20:21.305858 #7080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:20:21.313375 #7080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:20:21.319022 #7080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:20:21.511882 #7080] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:20:21.739687 #7080] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1547"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
+D, [2020-06-16T01:20:22.149835 #7080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:20:22.154069 #7080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:20:22.186517 #7080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:20:22.512748 #7080] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2020-06-16T01:20:22.518760 #7080] DEBUG -- : REQUESTING PAGE: POST /nickname with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2020-06-16T01:20:22.525416 #7080] DEBUG -- : REQUESTING PAGE: POST /aceptar with {"Nombre1"=>"Jugador 1", "dificultad"=>"EASY", "codigo"=>"NUMEROS", "intentos"=>"10", "Nombre2"=>"Jugador 2"} and HTTP headers {"HTTP_REFERER"=>"/nickname"}
+D, [2020-06-16T01:20:22.687841 #7080] DEBUG -- : REQUESTING PAGE: POST /verificarNumeros with {"Numero"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/aceptar"}
+D, [2020-06-16T01:20:22.927736 #7080] DEBUG -- : REQUESTING PAGE: POST /adivinarNumero with {"Adiv"=>"1234"} and HTTP headers {"HTTP_REFERER"=>"/verificarNumeros"}
