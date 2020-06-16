@@ -12,11 +12,7 @@ class TorosVacas
         obj.to_s.match(/\A[+-]?\d+?(\.\d+)?\Z/) == nil ? false : true
     end
     def setTipoCodigo(tipo)
-        if(tipo == "NUMERO")
-            @tipoCodigo = tipo
-        else
-            @tipoCodigo = tipo
-        end
+        @tipoCodigo = tipo
     end
     def setTamCodigo(dificultad)
         if(dificultad == "HARD")
@@ -125,5 +121,4 @@ class TorosVacas
     def getTipoCodigo()
         return @tipoCodigo
     end
-
 end

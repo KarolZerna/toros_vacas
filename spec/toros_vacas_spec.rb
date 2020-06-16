@@ -34,6 +34,9 @@ RSpec.describe TorosVacas do
         vec = @juego.numeroTorosVacas(1234)
         expect('vacas: ' + vec[0].to_s+' toros: ' + vec[1].to_s).to eq('vacas: 0 toros: 4')
     end
+    it 'deberia devolver 1 vaca, suponiendo que el codigo es 3421'do
+        expect(@juego.mostrarToros_Vacas(8615)).to eq('vacas: 1 toros: 0')
+    end
     it 'deberia inicializar el numero de intentos en 1' do
         expect(@juego.mostrarIntentos()).to eq("1")
     end
@@ -41,7 +44,6 @@ RSpec.describe TorosVacas do
         @juego.aumentarIntentos()
         expect(@juego.mostrarIntentos()).to eq("2")
     end
-
     it 'deberia devolver 4 en tamaño de codigo si ponemos como dificultad EASY' do
         @juego.setTamCodigo("EASY")
         expect(@juego.getTamCodigo()).to eq(4)
@@ -56,5 +58,22 @@ RSpec.describe TorosVacas do
         @juego.setTamCodigo("HARD")
         expect(@juego.getTamCodigo()).to eq(8)
     end
-    
+
+    it 'deberia devolver True si las letras de la palabra ingresada son iniciales de los colores que mencionamos al jugador ' do
+        expect(@juego.verificarLetrasGeneral("BANG")).to eq(true)
+    end
+    it 'deberia devolver False si las letras ingresadas no son iniciales de los colores que mencionamos al jugador' do
+        expect(@juego.verificarLetrasGeneral("BONG")).to eq(false)
+    end
+    it 'deberia devolver False si el codigo ingresado es de numeros' do
+        expect(@juego.verificarLetrasGeneral(7845)).to eq(false)
+    end
+    it 'deberia devolver el numero de intentos que el jugador definio en las configuraciones' do
+        @juego.setLimiteIntentos(10)
+        expect(@juego.getLimiteIntentos()).to eq(10)
+    end
+    it 'deberia devolver COLORES O NUMEROS' do
+        @juego.setTipoCodigo("COLORES")
+        expect(@juego.getTipoCodigo()).to eq("COLORES")
+    end
 end
